@@ -1,0 +1,10 @@
+{
+  "name": "DemoSyncGithub",
+  "default_flow": "Default",
+  "flows": [
+    {
+      "name": "Default",
+      "description": "Simple barebones flow. Code your own chatbot from this template!"
+    }
+  ]
+}
