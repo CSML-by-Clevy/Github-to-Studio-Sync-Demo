@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Sync with studio
-        uses: CSML-by-Clevy/csml-studio-sync-action@v1.0-beta4
+        uses: CSML-by-Clevy/csml-studio-sync-action@v1.0-beta5
         with:
           update: true
           build: true
@@ -23,7 +23,7 @@ jobs:
           DEBUG: "true"
 
       - name: Create new snapshot
-        uses: CSML-by-Clevy/csml-studio-sync-action@v1.0-beta4
+        uses: CSML-by-Clevy/csml-studio-sync-action@v1.0-beta5
         with:
           create-snapshot: true
         env:
