@@ -3,7 +3,7 @@ name: Sync bot on CSML Studio
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   container-job:
